@@ -1,0 +1,11 @@
+title: Portavita devblog
+email: j.visser@portavita.eu
+description: > # this means to ignore newlines until "baseurl:"
+  No text
+baseurl: ""
+url: "https://www.portavita.com"
+twitter_username:
+github_username: jasperavisser
+
+# Build settings
+markdown: kramdown
