@@ -110,7 +110,8 @@ while (true) {
     consumer.commitSync()
   } match {
     case Success(_) =>
-    case Failure(e: CommitFailedException) => log.error(s"Commit failed on $topic!")
+    case Failure(e: CommitFailedException) =>
+      log.error(s"Commit failed on $topic!")
     case Failure(e) => throw e
   }
 }
